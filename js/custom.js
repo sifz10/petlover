@@ -215,10 +215,10 @@ $(document).ready(function(){
 $('.slider_pet').slick({
     autoplay: false,
     autoplaySpeed: 1800, 
-    slidesToShow: 5,
+    slidesToShow: 3,
     slidesToScroll: 1,
     dots: false,
-    arrows:false,
+    arrows:true,
     prevArrow:'<i class="fas fa-chevron-left  previous-arrow"></i>',
     nextArrow:'<i class="fas fa-chevron-right  next-arrow"></i>',
     responsive: [
