@@ -1,0 +1,559 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*=====================
+Update text and Search Box section Staart
+=======================*/
+.text-searchBox{
+    padding-top: 40px;
+}
+.text-searchBox .text-1 .update-text{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 38px;
+    width: 555px;
+    letter-spacing: 1.42px;
+    color: #1E2022;
+    margin-top: 150px;
+    margin-left: 480px;
+}
+
+.text-searchBox .text-2 .blog-text{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 17px;
+    width: 555px;
+    height: 27px;
+    letter-spacing: 0.6px;
+    color: #77838F;
+    margin-top: 10px;
+    margin-left: 535px;
+}
+
+.text-searchBox .searchbox{
+    width: 550px;
+    border: 1px solid #E7EAF3;
+    padding: 13px 0;
+    border-radius: 5px;
+    margin: 30px auto;
+}
+
+.text-searchBox .searchbox:hover{
+    cursor: pointer;
+    background: #F2F2F2;;
+}
+
+.text-searchBox .searchbox input{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: 0.49px;
+    color: #77838F;
+    background: transparent;
+    border: 0px;
+    outline: 0px;
+    padding-left: 19px;
+    
+}
+
+.text-searchBox .searchbox a .search-icon{
+    font-size: 20px;
+    width: 21.33px;
+    height: 21.33px;
+    color: #000000;
+    margin-left: 310px;
+}
+
+/*=====================
+Update text and Search Box section End
+=======================*/
+
+
+/*=====================
+Card Part Start 
+=======================*/
+
+.card-box .box-1{
+}
+
+.card-box .box-1 .item{
+    margin-top: 55px;
+}
+.card-box .first-box{
+    position: relative;
+}
+.card-box .first-box .date{
+    position: absolute;
+    top: 0;
+    left: 20px;
+    z-index: 999;
+}
+
+.card-box .first-box .date {
+	position: absolute;
+	top: 18px;
+	left: 20px;
+	z-index: 999;
+}
+
+.card-box .box-1 .item img {
+    position: relative;
+    width: 100%;
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card-box .box-1 .item .date {
+
+
+	padding: 10px 10px;
+	background-color: #BAB9BE;
+	color: #fff;
+	font-family: 'Nunito Sans', sans-serif;
+	line-height: 27px;
+	letter-spacing: 0.49px;
+	font-size: 13px;
+	font-weight: 400;
+	border-radius: 5px;
+	margin-left: -3px;
+
+	transition: .5s;
+	cursor: pointer;
+}
+
+
+.card-box .box-1 .item .text{
+    background: #E7EAF3;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.card-box .box-1 .item .text h3{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    color: #1E2022;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.card-box .box-1 .item .text p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 17px;
+    color: #77838F;
+    font-weight: 400;
+    margin-top: 15px;
+    line-height: 27px;
+    letter-spacing: 0.6px;
+}
+
+.card-box .box-1 .item a{
+    display: inline-block;
+    padding: 18px 40px;
+    background-color: #091925;
+    color: #fff;
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 0.6px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-right: auto;
+    margin-top: 15px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.card-box .box-2{
+}
+
+.card-box .box-2 .item{
+    margin-top: 55px;
+}
+
+.card-box .box-2 .item img{
+    width: 100%;
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-box .box-2 .item .text{
+    background: #E7EAF3;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.card-box .box-2 .item .text h3{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 26px;
+    color: #1E2022;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.card-box .box-2 .item .text p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    color: #77838F;
+    font-weight: 400;
+    margin-top: 15px;
+    line-height: 30px;
+    letter-spacing: 0.8px;
+}
+
+.card-box .box-2 .item .text a{
+    display: inline-block;
+    padding: 18px 40px;
+    background-color: #091925;
+    color: #fff;
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 0.6px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-right: auto;
+    margin-top: 15px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.card-box .box-3{
+}
+
+.card-box .box-3 .item{
+    margin-top: 55px;
+}
+
+.card-box .box-3 .item img {
+    position: relative;
+    width: 100%;
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-box .box-3 .item .text{
+    background: #E7EAF3;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.card-box .box-3 .item .text h3{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    color: #1E2022;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.card-box .box-3 .item .text p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 17px;
+    color: #77838F;
+    font-weight: 400;
+    margin-top: 15px;
+    line-height: 27px;
+    letter-spacing: 0.6px;
+}
+
+.card-box .box-3 .item a{
+    display: inline-block;
+    padding: 18px 40px;
+    background-color: #091925;
+    color: #fff;
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 0.6px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-right: auto;
+    margin-top: 15px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+/*=====================
+Card Part End 
+=======================*/
+
+
+/*=====================
+Page-number Part Start 
+=======================*/
+
+.numbers-part .new-page-number{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 400px;
+    margin: 35px auto;
+}
+
+.numbers-part .new-page-number .common-number {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    font-size: 18px;
+    color: #77838F;
+    text-align: center;
+    line-height: 36px;
+    padding-top: auto 0;
+    border-radius: 4px;
+}
+
+.numbers-part .new-page-number .common-number:hover{
+    color: #fff;
+    background: #5031A9;
+    transition: .5s;
+    cursor: pointer;
+}
+
+/*=====================
+Page-number Part End 
+=======================*/
+
+
+/*=====================
+Stay and Email section Start
+=======================*/
+
+.stay-email-section{
+    width: 1903px;
+    height: 440px;
+    background: #F7FAFD;
+    margin-top: 120px;
+    padding-top: 100px;
+}
+
+.stay-email-section .text-mail-box{
+    width: 467px;
+    height: 198px;
+    margin: 0px 430px;
+}
+
+.stay-email-section .text-mail-box .text-1 .stay-text{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    width: 263.65px;
+    height: 42px;
+    line-height: 42px;
+    letter-spacing: 1.2px;
+    color: #1E2022;
+    margin-left: 100px;
+}
+
+.stay-email-section .text-mail-box .text-2 .blog-text{
+    font-family: 'Nunito Sans', sans-serif;
+    width: 467px;
+    height: 53px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.6px;
+    color: #77838F;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.stay-email-section .text-mail-box .searchbox{
+    width: 467px;
+    height: 52px;
+    border: 1px solid #ffffff;
+    background: #ffffff;
+    padding: 13px 0;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.stay-email-section .text-mail-box .searchbox:hover{
+    cursor: pointer;
+}
+
+.stay-email-section .text-mail-box .searchbox input{
+    font-family: 'Nunito Sans', sans-serif;
+    width: 220px;
+    height: 25px;
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: 0.49px;
+    color: #77838F;
+    background: transparent;
+    border: 0px;
+    outline: 0px;
+    padding-left: 19px;
+}
+
+.stay-email-section .text-mail-box .searchbox a .fa-paper-plane{
+    font-size: 25px;
+    width: 26px;
+    height: 26px;
+    color: #000000;
+    margin-left: 415px;
+    margin-top: -25px;
+}
+
+/*==========================
+Stay and Email section End
+============================*/
+
+
+/*==========================
+Responsive Part Start
+============================*/
+
+@media screen and (max-width: 575px) {
+    .card-box .box-1 .item .date {
+        position: absolute;
+        top: 232px;
+        left: 48px;
+        padding: 10px 10px;
+        background-color: #BAB9BE;
+        color: #fff;
+        font-family: 'Nunito Sans', sans-serif;
+        line-height: 27px;
+        letter-spacing: 0.49px;
+        font-size: 13px;
+        font-weight: 400;
+        border-radius: 5px;
+        margin-left: -20px;
+        margin-top: -220px;
+        transition: .5s;
+        cursor: pointer;
+    }
+
+    .text-searchBox .text-1 .update-text {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 25px;
+        width: 555px;
+        letter-spacing: 1.42px;
+        color: #1E2022;
+        margin-top: 30px;
+        margin-left: 85px;
+    }
+
+    .text-searchBox .text-2 .blog-text {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 13px;
+        width: 555px;
+        height: 27px;
+        letter-spacing: 0.6px;
+        color: #77838F;
+        margin-top: 10px;
+        margin-left: 110px;
+    }
+
+    .text-searchBox .searchbox {
+        width: 355px;
+        border: 1px solid #E7EAF3;
+        padding: 13px 0;
+        border-radius: 5px;
+        margin: 30px auto;
+        height: 54px;
+    }
+
+    .text-searchBox .searchbox a .search-icon {
+        font-size: 22px;
+        width: 21.33px;
+        height: 21.33px;
+        color: #000000;
+        margin-left: 310px;
+        margin-top: -28px;
+    }
+
+    .text-searchBox .searchbox {
+        width: 355px;
+        border: 1px solid #E7EAF3;
+        padding: 13px 0;
+        border-radius: 5px;
+        margin: 20px auto;
+        height: 54px;
+    }
+
+    .numbers-part .new-page-number {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 400px;
+        margin: 35px -10px;
+    }
+
+    .stay-email-section .text-mail-box .text-1 .stay-text {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 25px;
+        font-weight: 400;
+        width: 212.65px;
+        height: 35px;
+        line-height: 20px;
+        letter-spacing: 1.2px;
+        color: #1E2022;
+        margin-left: -340px;
+    }
+
+    .stay-email-section {
+        /* width: 1903px; */
+        height: 440px;
+        background: #F7FAFD;
+        margin-top: 70px;
+        padding-top: 80px;
+    }
+
+    .stay-email-section .text-mail-box .text-2 .blog-text {
+        font-family: 'Nunito Sans', sans-serif;
+        width: 455px;
+        height: 45px;
+        text-align: center;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0.6px;
+        color: #77838F;
+        margin-top: -5px;
+        margin-bottom: 40px;
+        margin-left: -460px;
+    }
+
+    .stay-email-section .text-mail-box .searchbox {
+        width: 397px;
+        height: 52px;
+        border: 1px solid #ffffff;
+        background: #ffffff;
+        padding: 13px 0;
+        border-radius: 5px;
+        margin-top: -5px;
+        margin-left: -435px;
+    }
+
+    .stay-email-section .text-mail-box .searchbox a .fa-paper-plane {
+        font-size: 20px;
+        width: 26px;
+        height: 26px;
+        color: #000000;
+        margin-left: 355px;
+        margin-top: -32px;
+    }
+
+    .stay-email-section {
+        height: 345px;
+        background: #F7FAFD;
+        margin-top: 70px;
+        padding-top: 80px;
+    }
+ }
+
+ /*==========================
+Responsive Part Start
+============================*/

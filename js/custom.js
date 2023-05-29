@@ -157,6 +157,9 @@ $(document).ready(function(){
 
 });  
 
+
+
+
 /*=============== banner ===============*/
 $(document).ready(function(){ 
   //slider start;
