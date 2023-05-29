@@ -1795,10 +1795,24 @@ Contact section end
   
   ==================================
   ==========================*/
+
+  .section_foure .slider_pet .box {
+    margin: 4px;
+    display: flex;
+    height: 249px;
+    margin-bottom: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.253);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    flex-direction: column;
+    border-radius: 7px;
+  }
   .header .nav .menu .nav-item ul {
     margin-top: 67px;
   }
   .section_foure .slider_pet .box .img {
+    border-top-left-radius: 7px !important;
+    border-top-right-radius: 7px !important;
     background-color: var(--brand);
     height: 134px;
     width: 100%;
@@ -2050,19 +2064,21 @@ Contact section end
     padding: 32px;
   }
   .section_foure .slider_pet .box .brand_button {
-    margin-left: 49px;
-    margin-top: 22px;
+    /* margin-left: 9px; */
+    /* margin-top: -9px; */
+    margin: auto;
   }
   .section_foure .slider_pet .box h2 {
+    line-height: 50px !important;
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 17px;
     /* line-height: 131px; */
     color: #403d3d;
     font-family: 'Nunito', sans-serif;
     text-align: center;
-    margin-top: 128px;
-    margin-left: 55px;
+    margin-top: 0px;
+    margin-left: 0px;
   }
   .heading_large {
     font-style: normal;
