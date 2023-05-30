@@ -1966,11 +1966,704 @@ Service section  end
 ================================================
 */
 
+/* ================================================
+================================================
+============================================
+==================================================
+================================================
+booking section  
+====================================================
+=================================================
+===================================================
+================================================
+*/
+
+.booking_seemore{
+  height: 225px;
+background-color: var(--brand);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.booking_seemore .heading{
+
+}
+.booking_seemore .heading h1 {
+	position: relative;
+	text-align: center;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 42px;
+	text-align: center;
+	letter-spacing: 3.15636;
+	color: white;
+	font-family: 'Nunito', sans-serif;
+	padding-top: 3px;
+  padding-bottom: 30px;
+}
+
+.booking_seemore .heading a{
+  color: white;
+  width: 200px;
+  height: 42px;
+  border: 2px solid white;
+  border-radius: 12px;
+  font-family: 'Nunito', sans-serif;
+  line-height: 42px;
+  cursor: pointer;
+}
+.booking_seemore .heading .breadcame{
+  display: flex;
+  justify-content: center;
+  color: white;
+
+}
 
 
 
+.booking_one {
+  margin-top: 230px;
+  width: 100%;
+  height: 500px;
+  position: relative;
+  padding: 30px;
+  border-radius: 45px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-bottom: 130px;
+}
+
+.booking_one .one {
+	padding: 0px 70px;
+	display: flex;
+	justify-content: space-between;
+}
+.booking_one .one .box{
+  position: relative;
+  top: -112px;
+  width: 200px;
+  height: 151px;
+  border-radius: 33px;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.booking_one .one .box .logo{
+  width: 50px;
+  height: 50px;
+  background-color: var(--brand);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 33px;
+}
+.booking_one .one .box .text  h2{
+  font-family: 'Nunito', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 56px;
+text-align: center;
+color: #000;
+}
+
+.booking_one .two {
+  display: flex;
+  justify-content: space-between;
+}
+
+.booking_one .two .left{
+  margin-left: 95px;
+}
+.booking_one .two .right{
+  margin-right: 95px;
+}
+.booking_one .two .form-select {
+  cursor: pointer;
+  font-family: 'Nunito', sans-serif !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 28px !important;
+  line-height: 56px !important;
+  text-align: center !important;
+  color: #000 !important;
+	display: block !important;
+	width: 100%;
+	padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+	-moz-padding-start: calc(0.75rem - 3px);
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+	background-color: #ffffff00;
+	background-image:none !important;
+	background-repeat: no-repeat;
+	background-position: right 0.75rem center;
+	background-size: 16px 12px;
+	border: 1px solid #ced4da00 !important;
+	border-radius: 0.25rem;
+	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+  outline: 0 !important;
+}
+.booking_one .three {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 86px;
+	border-top: 1px solid rgba(0, 0, 0, 0.268);
+}
+.booking_one .three a{
+  width: 360px;
+  height: 52;
+  font-family: 'Nunito', sans-serif !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 52px;
+  /* identical to box height, or 280% */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  color: #FFFFFF;
+
+  border-radius: 37px;
+  background-color: var(--brand);
+}
 
 
+
+.booking_modal_one{
+
+}
+
+
+.booking_modal_one .modal {
+  background: rgba(255, 255, 255, 0.37);
+  background-color: rgba(255, 255, 255, 0.37);
+border-radius: 0px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.5px);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1055;
+	display: none;
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	outline: 0;
+
+}
+
+
+.booking_modal_one .modal .modal-content{
+  border-radius: 15px;
+}
+
+.booking_modal_one .modal .modal-content .service_content{
+
+}
+
+.booking_modal_one .end {
+	position: relative;
+	right: -16px;
+	top: -16px;
+  cursor: pointer;
+}
+.booking_modal_one .end img{
+  width: 40px;
+
+
+}
+
+.booking_modal_one .modal .modal-content .left {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+  border-right: 1px solid black;
+}
+.booking_modal_one .modal .modal-content .left .icon{
+  padding-top: 50px;
+  padding-left: 50px;
+}
+.booking_modal_one .modal .modal-content .left .Company_logo{
+  width: 100%;
+
+}
+.booking_modal_one .modal .modal-content .left .Company_logo .logo{
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  background-color: var(--brand);
+  border-radius: 100%;
+
+}
+.booking_modal_one .modal .modal-content .left .Company_logo .text h2{
+  
+  font-family: 'Nunito', sans-serif !important;
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 40px;
+/* or 160% */
+
+text-align: center;
+
+color: #000000;
+}
+.booking_modal_one .modal .modal-content .left .need_help{
+  width: 100%;
+}
+.booking_modal_one .modal .modal-content .left .need_help h2{
+  font-family: 'Nunito', sans-serif !important;
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 35px;
+text-align: center;
+
+color: #000000;
+
+}
+
+.booking_modal_one .modal .modal-content .left .need_help a{
+  font-family: 'Nunito', sans-serif !important;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+text-decoration-line: underline;
+margin-left:84px ;
+color: #000000;
+
+}
+.booking_modal_one .modal .modal-content .left .need_help p{
+  font-family: 'Nunito', sans-serif !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  display: block;
+
+
+  color: #000000;
+}
+
+.booking_modal_one .modal .modal-content .left .need_help h3{
+  font-family: 'Nunito', sans-serif !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+
+  margin: auto;
+  color: #000000;
+  padding-bottom: 50px;
+}
+
+
+.booking_modal_one .modal .modal-content .right{
+
+}
+.booking_modal_one .modal .modal-content .right .box {
+	height: 112px;
+	width: 83%;
+	margin: 70px;
+	border: 1px solid #000000;
+}
+.booking_modal_one .modal .modal-content .right .box{
+  display: flex;
+  justify-content: space-between;
+}
+.booking_modal_one .modal .modal-content .right .box .img{
+  width: 66px;
+  height: 66px;
+  border-radius: 100%;
+  background-color: var(--brand);
+  margin-left: 65px;
+  margin-top: 20px;
+}
+.booking_modal_one .modal .modal-content .right .box  .text{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 50px;
+}
+.booking_modal_one .modal .modal-content .right .box  .text h2{
+  font-family: 'Nunito', sans-serif !important;
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 40px;
+/* identical to box height, or 160% */
+
+
+color: #000000;
+}
+.booking_modal_one .modal .modal-content .right .box  .text h3{
+  font-family: 'Nunito', sans-serif !important;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+letter-spacing: 1.57818px;
+
+color: #717171;
+margin-left: 40px;
+
+}
+
+.booking_modal_one .modal .modal-content .right .box  .text .img_plus{
+  margin-left: 30px;
+  position: relative;
+  top: -5px;
+}
+
+
+.booking_modal_one .modal .modal-content .right .box_two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  width: 83%;
+  margin: 60px;
+  height: 228px;
+}
+
+.booking_modal_one .modal .modal-content .right .box_two .img{
+  width: 66px;
+  height: 66px;
+  border-radius: 100%;
+  background-color: var(--brand);
+  margin-left: 65px;
+  margin-top: 20px;
+}
+.booking_modal_one .modal .modal-content .right .box_two .text h2{
+  font-family: 'Nunito', sans-serif !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 40px;
+  /* identical to box height, or 160% */
+  
+  
+  color: #000000;
+  
+}
+.booking_modal_one .modal .modal-content .right .box_two .text h3{
+  font-family: 'Nunito', sans-serif !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 40px;
+  /* or 267% */
+  width: 285px;
+  
+  color: #000000;
+  
+  
+}
+
+.booking_modal_one .modal .modal-content .right .box_two .price h3{
+  font-family: 'Nunito', sans-serif !important;
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 40px;
+/* identical to box height, or 160% */
+padding-right: 30px;
+
+color: #000000;
+}
+.booking_modal_one .modal .modal-content .right .back{
+  margin-left: 50px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.booking_modal_one .modal .modal-content .right .back a{
+  font-family: 'Nunito', sans-serif !important;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 40px;
+/* identical to box height, or 250% */
+
+
+color: #000000;
+padding-left: 8px;
+
+}
+
+.booking_modal_one .modal .modal-content .right .next {
+	width: 169px;
+	height: 45px;
+	border-radius: 6px;
+	background-color: var(--brand);
+	float: right;
+	padding-left: 20px;
+	margin-right: 83px;
+	margin-bottom: 30;
+  cursor: pointer;
+}
+
+.booking_modal_one .modal .modal-content .right .next a{
+  font-family: 'Nunito', sans-serif !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 45px;
+  /* identical to box height, or 250% */
+  
+  
+  color: #ffffff;
+  padding-left: 8px;
+}
+.booking_modal_one .modal .modal-content .right .next img{
+  width: 30px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+
+.booking_modal_one .modal .modal-content .right .box_three {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  width: 70%;
+  margin: 60px;
+  height: 158px;
+  padding: 30px;
+}
+
+.booking_modal_one .modal .modal-content .right .box_three .price h3{
+  font-family: 'Nunito', sans-serif !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 40px;
+  /* identical to box height, or 160% */
+  padding-right: 30px;
+  
+  color: #000000;
+}
+
+.booking_modal_one .modal .modal-content .right .box_three .img {
+	width: 66px;
+	height: 66px;
+	border-radius: 100%;
+	background-color: var(--brand);
+	margin-left: 65px;
+	margin-top: -6px;
+}
+
+.booking_modal_one .modal .modal-content .right .box_five {
+  
+}
+.booking_modal_one .modal .modal-content .right .box_five .heading{
+  border-bottom: 1px solid #77838F;
+  width: 90%;
+}
+.booking_modal_one .modal .modal-content .right .box_five .heading{
+  margin-left: 58px;
+}
+.booking_modal_one .modal .modal-content .right .box_five .heading h1{
+
+  font-family: 'Nunito', sans-serif !important;
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 40px;
+/* identical to box height, or 160% */
+
+margin-top: 30px;
+
+color: #000000;
+}
+
+.booking_modal_one .modal .modal-content .right .box_five .user_info{
+  margin: 20px;
+  padding: 20px;
+  padding-right: 30px;
+}
+.booking_modal_one .modal .modal-content .right .box_five .user_info .input{
+  width: 100%;
+  height: 64px;
+  border: 1px solid #77838F;
+border-radius: 9px;
+margin: 20px;
+}
+.booking_modal_one .modal .modal-content .right .box_five .user_info .input input{
+  width: 90%;
+  border: 1px solid rgba(0, 0, 0, 0) !important;
+  outline: 0;
+  height: 98%;
+  margin-left: 30px;
+}
+.booking_modal_one .modal .modal-content .right .box_five .user_info .input input::placeholder{
+  font-family: 'Nunito', sans-serif !important;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 27px;
+
+color: #858585;
+
+}
+.booking_modal_one .modal .modal-content .right .box_six{
+  padding: 40px;
+}
+.booking_modal_one .modal .modal-content .right .box_six h1{
+  font-family: 'Nunito', sans-serif !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 40px;
+  /* identical to box height, or 160% */
+  
+  
+  color: #000000;
+  
+}
+.booking_modal_one .modal .modal-content .right .box_six .heading{
+  border-bottom: 1px solid #77838F;
+}
+.booking_modal_one .modal .modal-content .right .box_six .Appointment_info .one h2{
+  font-family: 'Nunito', sans-serif !important;
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 40px;
+/* identical to box height, or 160% */
+
+
+color: #858585;
+
+}
+.booking_modal_one .modal .modal-content .right .box_six .Appointment_info .one h3{
+  font-family: 'Nunito', sans-serif !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 40px;
+  /* identical to box height, or 95% */
+  
+  
+  color: #000000;
+  
+
+}
+.booking_modal_one .modal .modal-content .right .box_six .Appointment_info .one {
+	padding-top: 7px;
+	padding-bottom: 16px;
+	border-bottom: 1px solid rgba(141, 141, 141, 0.85);
+}
+.booking_modal_one .modal .modal-content .right .box_six .Appointment_info .two h1 {
+	font-family: 'Nunito', sans-serif !important;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 20px;
+	width: 40%;
+	color: #000000;
+	padding-top: 24px;
+	padding-bottom: 21px;
+	border-bottom: 1px solid rgba(141, 141, 141, 0.85);
+}
+.booking_modal_one .modal .modal-content .right .box_six .Appointment_info .six h1{
+  font-family: 'Nunito', sans-serif !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 40px;
+  /* identical to box height, or 160% */
+  width: 40%;
+  
+  color: #000000;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(141, 141, 141, 0.85);
+}
+.booking_modal_one .modal .modal-content .right .box_six .Appointment_info .three{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(141, 141, 141, 0.85);
+}
+.booking_modal_one .modal .modal-content .right .box_six .Appointment_info .five{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(141, 141, 141, 0.85);
+}
+.booking_modal_one .modal .modal-content .right .box_six .Appointment_info .four{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(141, 141, 141, 0.85);
+}
+.booking_modal_one .modal .modal-content .right .box_six .Appointment_info .seven{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(141, 141, 141, 0.85);
+}
+.booking_modal_one .modal .modal-content .right .box_six .Appointment_info .eight{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(141, 141, 141, 0.85);
+}
+.booking_modal_one .modal .modal-content .right .box_six .Appointment_info .nine{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(141, 141, 141, 0.85);
+}
+.booking_modal_one .modal .modal-content .right .box_six .Appointment_info .ten{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.booking_modal_one .modal .modal-content .right .box_six .Appointment_info h1 {
+	font-family: 'Nunito', sans-serif !important;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 25px;
+	width: 40%;
+	color: #000000;
+	padding-top: 17px;
+	padding-bottom: 10px;
+}
+.booking_modal_one .modal .modal-content .right .box_six .Appointment_info  h1 span{
+  font-family: 'Nunito', sans-serif !important;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 40px;
+/* identical to box height, or 182% */
+
+
+color: #0000008f;
+
+}
+/* ================================================
+================================================
+============================================
+==================================================
+================================================
+booking section   end
+====================================================
+=================================================
+===================================================
+================================================
+*/
 
 
 /* ================================================
