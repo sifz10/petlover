@@ -416,6 +416,70 @@ Responsive Part Start
 ============================*/
 
 @media screen and (max-width: 575px) {
+    .card-box .box-2 .item .text h3 {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 17px;
+        color: #1E2022;
+        font-weight: 600;
+        margin-top: -9px;
+    }
+    .card-box .box-2 .item .text p {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 14px;
+        color: #77838F;
+        font-weight: 400;
+        margin-top: 15px;
+        line-height: 21px;
+        letter-spacing: 0.8px;
+    }
+    .card-box .box-2 .item .text a {
+        display: inline-block;
+        padding: 10px 31px;
+        background-color: #091925;
+        color: #fff;
+        font-family: 'Nunito Sans', sans-serif;
+        letter-spacing: 0.6px;
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 5px;
+        margin-right: auto;
+        margin-top: 15px;
+        transition: .5s;
+        cursor: pointer;
+    }
+    .card-box .box-1 .item .text p {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 14px;
+        color: #77838F;
+        font-weight: 400;
+        margin-top: 15px;
+        line-height: 21px;
+        letter-spacing: 0.6px;
+      }
+    
+      .card-box .box-1 .item .text h3 {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 15px;
+        color: #1E2022;
+        font-weight: 600;
+        margin-top: -7px;
+      }
+    
+      .card-box .box-1 .item a {
+        display: inline-block;
+        padding: 10px 31px;
+        background-color: #091925;
+        color: #fff;
+        font-family: 'Nunito Sans', sans-serif;
+        letter-spacing: 0.6px;
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 5px;
+        margin-right: auto;
+        margin-top: 15px;
+        transition: .5s;
+        cursor: pointer;
+      }
     .card-box .box-1 .item .date {
         position: absolute;
         top: 232px;
