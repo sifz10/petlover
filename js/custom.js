@@ -6,6 +6,26 @@ window.onload = function(){
 
 
 
+/*=============== SCROLL REVEAL ANIMATION ===============*/
+const sr = ScrollReveal({
+  distance: '60px',
+  duration: 2500,
+  delay: 400,
+  reset: true
+})
+
+// sr.reveal(`.easy-writing, .animation_one`,{origin: 'top', interval: 50})
+sr.reveal(`.quality`,{delay: 300})
+sr.reveal(``,{delay: 300, origin: 'top'})
+
+sr.reveal(`.work,  .footer__content, .animation_three`,{origin: 'top', interval: 50})
+sr.reveal(`.our-feature, .animation_two`,{origin: 'top', interval: 50})
+sr.reveal(`.our-feature, .animation_four`,{origin: 'top', interval: 50})
+
+sr.reveal(``,{origin: 'top'})
+sr.reveal(``)
+
+
 
 // $(document).ready(function(){ 
 //   // Get the container element
@@ -84,26 +104,6 @@ navLink.forEach(n => n.classList.remove('active'));
 this.classList.add('active');
 }
 navLink.forEach(n => n.addEventListener('click', linkAction));
-
-
-/*=============== SCROLL REVEAL ANIMATION ===============*/
-const sr = ScrollReveal({
-  distance: '60px',
-  duration: 2500,
-  delay: 400,
-  reset: true
-})
-
-sr.reveal(`.easy-writing, .animation_one`,{delay: 50})
-sr.reveal(`.quality`,{delay: 300})
-sr.reveal(``,{delay: 300, origin: 'top'})
-
-sr.reveal(`.work,  .footer__content, .animation_three`,{origin: 'top', interval: 50})
-sr.reveal(`.our-feature, .animation_two`,{origin: 'top', interval: 50})
-sr.reveal(`.our-feature, .animation_four`,{origin: 'top', interval: 50})
-
-sr.reveal(``,{origin: 'top'})
-sr.reveal(``)
 
 
 /*=============== banner ===============*/
