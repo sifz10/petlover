@@ -1,25 +1,10 @@
 window.onload = function(){
   //hide the preloader
-  document.querySelector(".content").style.display = "none";
+  document.querySelector(".pre_container").style.display = "none";
 }
 
 
-  $('#side_three .button').on('click', function(){
-    
-    $('#side_three .button ').toggleClass('current');
-  });
 
-
-
-  let cursor = document.getElementById("cursor");
-
-  document.addEventListener("mousemove", (e) => {
-    let x = e.clientX;
-    let y = e.clientY;
-    cursor.style.left = x + "px";
-    cursor.style.top = y + "px";
-  });
-  
 
 
 // $(document).ready(function(){ 
@@ -102,22 +87,23 @@ navLink.forEach(n => n.addEventListener('click', linkAction));
 
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
-// const sr = ScrollReveal({
-//   distance: '60px',
-//   duration: 2500,
-//   delay: 400,
-//   reset: true
-// })
+const sr = ScrollReveal({
+  distance: '60px',
+  duration: 2500,
+  delay: 400,
+  reset: true
+})
 
-// sr.reveal(`.easy-writing, .img`,{delay: 400})
-// sr.reveal(`.quality`,{delay: 300})
-// sr.reveal(``,{delay: 300, origin: 'top'})
+sr.reveal(`.easy-writing, .animation_one`,{delay: 50})
+sr.reveal(`.quality`,{delay: 300})
+sr.reveal(``,{delay: 300, origin: 'top'})
 
-// sr.reveal(`.work, .products__card, .footer__logo, .footer__content, .footer__copy`,{origin: 'top', interval: 50})
-// sr.reveal(`.our-feature, .discount__animate`,{origin: 'left', interval: 50})
+sr.reveal(`.work,  .footer__content, .animation_three`,{origin: 'top', interval: 50})
+sr.reveal(`.our-feature, .animation_two`,{origin: 'top', interval: 50})
+sr.reveal(`.our-feature, .animation_four`,{origin: 'top', interval: 50})
 
-// sr.reveal(``,{origin: 'top'})
-// sr.reveal(``)
+sr.reveal(``,{origin: 'top'})
+sr.reveal(``)
 
 
 /*=============== banner ===============*/

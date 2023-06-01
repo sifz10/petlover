@@ -16,7 +16,7 @@ variable css end
 
 
 /*========= LoadingのためのCSS ===============*/
-
+/* 
 .content {
   width: 100%;
   height: 100vh;
@@ -39,7 +39,77 @@ variable css end
   animation: text 3.5s ease both infinite;
   font-size: 14px;
   letter-spacing: 1px;
+} */
+
+
+
+.pre_container{
+  width: 100%;
+  height: 100%;
+  background-color: var(--brand);
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
+
+.loader-container {
+  position: relative;
+  height: 200px;
+  width: 200px;
+
+}
+.loader-container svg {
+  position: absolute;
+}
+
+
+/* $offset: 622;
+$duration: 1.4s; */
+
+.spinner {
+  animation: rotator 1.4s linear infinite;
+}
+.loader-dog {
+  left: 10px;
+  bottom: 10px;
+  width: 186px;
+  height: auto;
+}
+@keyframes rotator {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(270deg);
+  }
+}
+
+.path {
+  stroke-dasharray: 622;
+  stroke-dashoffset: 0;
+  transform-origin: center;
+  stroke: #fcb316;
+  animation: dash 1.4s ease-in-out infinite;
+}
+
+@keyframes dash {
+  0% {
+    stroke-dashoffset: 622;
+  }
+  50% {
+    stroke-dashoffset: 622/4;
+    transform: rotate(135deg);
+  }
+  100% {
+    stroke-dashoffset: 622;
+    transform: rotate(450deg);
+  }
+}
+
+
+
 
 /*========= レイアウトのためのCSS ===============*/
 
@@ -2745,7 +2815,7 @@ booking section   end
     outline: 0 !important;
   }
   .booking_one {
-    margin-top: 127px;
+    margin-top: 174px;
     width: 100%;
     height: 478px;
     position: relative;
@@ -3147,10 +3217,10 @@ booking section   end
     text-align: center;
     font-style: normal;
     font-weight: 400;
-    font-size: 21px;
+    font-size: 14px;
     line-height: 25px;
     text-align: center;
-    letter-spacing: 3.15636;
+    /* letter-spacing: 0; */
     color: white;
     font-family: 'Nunito', sans-serif;
     padding-top: 20px;
@@ -3280,14 +3350,7 @@ booking section   end
     height: 59px;
     width: 51px;
   }
-  .slider_service .nav-pills .nav-link.active, .nav-pills .show > .nav-link .box .img {
-    color: #fff;
-    height: 59px;
-    width: 51px;
-    border-radius: 100%;
-    border: 1px solid rgba(0, 0, 0, 0);
-    background-color: #0d6dfd00;
-  }
+
   .service_one .slider_service .box .text h2 {
     font-style: normal;
     font-weight: 700;
@@ -3376,14 +3439,14 @@ booking section   end
   .service_modal .modal .modal-content .tab-content .service_box .book a {
     text-align: center;
     font-family: 'Nunito', sans-serif;
-    font-size: 18px;
-    width: 234px;
-    height: 52px;
-    border-radius: 25px;
+    font-size: 13px;
+    width: 186px;
+    height: 36px;
+    border-radius: 37px;
     background-color: var(--brand);
     color: white;
     /* margin-top: ; */
-    line-height: 50px;
+    line-height: 36px;
     margin-top: 9px;
   }
   /* ===============service end========== */
@@ -3441,14 +3504,14 @@ booking section   end
     right: 5px;
     top: 14px;
   }
-.section_one .left_side .box {
+  .section_one .left_side .box {
     height: 500px;
-    width: 500px;
+    width: 100%;
     position: absolute;
     top: 106px;
     left: -109px;
     z-index: -1;
-}
+  }
   .section_one .left_side .box img{
     height: 500px;
     width: 200px;
@@ -3503,12 +3566,16 @@ booking section   end
 
   .section_one .right_radus {
     background-color: var(--brand);
-    height: 145px;
+    height: 86px;
     width: 348px;
-    border-top-right-radius: 200px;
-    border-top-left-radius: 200px;
+    border-top-right-radius: 168px;
+    border-top-left-radius: 176px;
     float: none;
     margin: auto;
+  }
+  .section_three .banner .img {
+    position: relative;
+    top: -56px;
   }
 
   .section_one .left_side {
@@ -3542,8 +3609,8 @@ booking section   end
 
   .section_one .right_side .seal_batch {
     position: relative;
-    right: -143px;
-    top: -246px;
+    right: -230px;
+    top: -175px;
     width: 70px;
   }
   .section_two .heading h2 {
@@ -3587,17 +3654,21 @@ booking section   end
   }
   .section_three .banner {
     position: relative;
-    height: 369px;
+    height: 319px;
     width: 350px;
     background-color: var(--brand);
-    border-top-right-radius: 108px;
+    border-top-right-radius: 62px;
     margin: auto;
   }
   .section_three .banner .img img {
     height: 283px;
-    margin-left: 45px;
+    margin-left: 0;
     width: 500px;
     width: 100%;
+  }
+  .section_three .banner .pets_icon img{
+
+    width: 65px;
   }
   .section_three .banner .pets_icon2 {
     position: relative;
@@ -3692,9 +3763,19 @@ booking section   end
   }
   .section_three .banner .pets_icon {
     position: relative;
-    top: -91px;
-    left: -61px;
-    width: 65px;
+    top: -33px;
+    left: -28px;
+    width: 66px;
+  }
+
+  .section_three .details .two a i {
+    font-size: 9px;
+    background-color: var(--brand);
+    border-radius: 100px;
+    padding: 4px;
+    color: rgb(255, 255, 255) !important;
+    position: relative;
+    top: -2px;
   }
   .section_six .image_slider .box img {
     width: 350;
@@ -3760,13 +3841,14 @@ booking section   end
   }
 
 
-
   .header .nav .menu .nav-item ul li {
     list-style: none;
     display: flex;
     align-items: center;
-    margin-left: 82px;
+    /* margin-left: 85px !important; */
     margin-top: 31px;
+    margin: auto;
+    margin-top: 34px;
   }
   .header .nav .menu .nav_dropdown button {
     margin-left: -52px;
@@ -3819,9 +3901,9 @@ booking section   end
     margin-bottom: 20px;
     border-bottom: 1px solid #0000001c;}
  
-  .header .nav .menu .nav-item ul {
-    margin-top: 39px;
-  }
+    .header .nav .menu .nav-item ul {
+      margin-top: 30%;
+    }
 
   .footer .one .input {
     /* padding: 10px 10px; */
@@ -3853,8 +3935,154 @@ booking section   end
     margin-bottom: 20px;
   }
 
+  .section_one .right_side .seal_batch img{
+
+    width: 90px;
+  }
+
+  .about_one {
+    height: 121px;
+    background-color: var(--brand);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: -29px; */
+    position: relative;
+    top: 67px;
+    margin-bottom: 86px;
+  }
+  .about_one .heading h1 {
+    position: relative;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 3.15636;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    padding-top: 3px;
+  }
+
+  .service_one .heading_two h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    color: #000000;
+    font-family: 'Nunito', sans-serif;
+    padding-bottom: 0px;
+    padding-top: 44px;
+  }
+
+  .service_one .tab-content .service_box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 106px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 12px;
+    margin-top: 24px;
+  }
+  .service_one .tab-content .service_box .img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: var(--brand);
+    margin-left: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .service_one .tab-content .service_box .img img {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+  }
+
+  .service_one .tab-content .service_box .text h2 {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 3.15636px;
+    color: #000000;
+    margin-left: 30px;
+  }
+
+  .service_modal .modal .modal-content .tab-content .service_box .img h2 {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 33px;
+    color: #000000;
+    margin-left: 11px;
+    margin-top: 13px;
+  }
+  .service_modal .modal .modal-content .tab-content .service_box .img {
+    padding-bottom: 15px;
+  }
+  .service_modal .modal .modal-content .tab-content .service_box .img img{
+   width: 30px;
+  }
 
 
+
+
+  .service_modal .end {
+    position: relative;
+    right: -2px;
+    top: -1px;
+    cursor: pointer;
+  }
+
+  .slider_service .nav-pills .nav-link.active, .nav-pills .show > .nav-link .box .img {
+    color: #fff;
+    height: 0;
+    width: 81px;
+    /* border-radius: 100%; */
+    border: none;
+    background-color: #0d6dfd00;
+  }
+  .service_one .slider_service .box .img img {
+    height: 43px;
+    width: 35px;
+  }
+
+  .nav_dropdown .dropdown-menu {
+    position: absolute;
+    z-index: 1000;
+    /* display: none; */
+    min-width: 0px !important;
+    padding: 0 0 !important;
+    margin: 0 !important;
+    font-size: 1rem;
+    color: #212529;
+    list-style: none !important;
+    background-color: var(--brand) !important;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+  }
+
+  .nav_dropdown .dropdown-menu li {
+    list-style: none;
+    /* display: flex; */
+    /* align-items: center; */
+    /* margin-left: 85px !important; */
+    margin-top: 31px;
+    margin: auto;
+    /* margin-top: 4px; */
+    margin: 9px;
+    /* align-items: center; */
+    /* text-align: center; */
+    margin-bottom: 16px !important;
+    margin-top: 8px !important;
+  }
 
 
    }
