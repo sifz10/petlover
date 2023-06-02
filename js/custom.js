@@ -15,15 +15,15 @@ const sr = ScrollReveal({
 })
 
 // sr.reveal(`.easy-writing, .animation_one`,{origin: 'top', interval: 50})
-sr.reveal(`.quality`,{delay: 300})
-sr.reveal(``,{delay: 300, origin: 'top'})
+// sr.reveal(`.quality`,{delay: 300})
+// sr.reveal(``,{delay: 300, origin: 'top'})
 
-sr.reveal(`.work,  .footer__content, .animation_three`,{origin: 'top', interval: 50})
-sr.reveal(`.our-feature, .animation_two`,{origin: 'top', interval: 50})
-sr.reveal(`.our-feature, .animation_four`,{origin: 'top', interval: 50})
+// sr.reveal(`.work,  .footer__content, .animation_three`,{origin: 'top', interval: 50})
+// sr.reveal(`.our-feature, .animation_two`,{origin: 'top', interval: 50})
+// sr.reveal(`.our-feature, .animation_four`,{origin: 'top', interval: 50})
 
-sr.reveal(``,{origin: 'top'})
-sr.reveal(``)
+// sr.reveal(``,{origin: 'top'})
+// sr.reveal(``)
 
 
 

@@ -426,7 +426,7 @@ menu css END
 .section_one .right_side .seal_batch {
 	position: relative;
 	right: -298px;
-	top: -257px;
+	top: -119px;
 	z-index: 09;
 }
 .section_one .right_side .pets_img img {
@@ -607,13 +607,13 @@ margin-top: 70px;
 }
 .section_three .banner .img img {
 	height: 471px;
-	margin-left: -43px;
+	margin-left: -4px;
 	/* width: 500px; */
 	/* width: 100%; */
 	/* padding: revert; */
 	position: relative;
-	top: 0px;
-	width: 500px;
+	top: -23px;
+	width: 398px;
 }
 
 
