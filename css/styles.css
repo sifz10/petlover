@@ -1793,9 +1793,9 @@ margin-bottom: 50px;
 	top: -8px;
 	left: -16px;
 }
-.service_one .slider_service .box .img img{
-  height: 194px;
-	width: 150px;
+.service_one .slider_service .box .img img {
+	height: 194px;
+	width: 194px;
 }
 .service_one .tab-content .service_box{
   display: flex;
@@ -3662,10 +3662,10 @@ booking section   end
     margin: auto;
   }
   .section_three .banner .img img {
-    height: 283px;
+    height: 341px;
     margin-left: 0;
     width: 500px;
-    width: 100%;
+    width: 95%;
   }
   .section_three .banner .pets_icon img{
 
@@ -3725,6 +3725,7 @@ booking section   end
  
   .section_foure .slider_pet .box .img img {
     width: 85px;
+    height: 111px;
   }
   .section_foure .slider_pet .box .img {
     background-color: var(--brand);
@@ -4050,8 +4051,8 @@ booking section   end
     background-color: #0d6dfd00;
   }
   .service_one .slider_service .box .img img {
-    height: 43px;
-    width: 35px;
+    height: 89px;
+    width: 63px;
   }
 
   .nav_dropdown .dropdown-menu {
