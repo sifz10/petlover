@@ -902,6 +902,7 @@ height: 397px;
 .section_six .image_slider .box img {
 	width: 483px;
 	height: 397px;
+	object-fit: cover;
 }
 /* ================ section_seven========*/
 
